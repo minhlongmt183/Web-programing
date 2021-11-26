@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    height: 628px;
+    background-color: white;
+    margin: auto;
+    
+
+}
+.header{
+    height: 50px;
+    background-color: rgb(175, 177, 167);
+    margin: auto;
+}
+
+.header h1{
+    margin-left: 10px;
+}
+
+.menu{
+    display: table-cell;
+    height: 50px;
+    width: 800px;
+    background-color: rgb(18, 4, 218);
+    vertical-align: middle;
+}
+
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+    text-decoration: underline;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.contents{
+    width: 800px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.contents.left{
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(145, 223, 145);
+}
+ul{
+    margin-block-start: 0em;
+}
+.contents.left a{
+    color: blue;
+}
+
+.contents.left.up{
+    height: 150px;
+    background-color: yellow;
+}
+.contents.left.down{
+    height: 150px;
+    background-color:darkgray;
+}
+
+.contents.right{
+    display: inline-block;
+    width: 550px;
+    background-color: rgb(169, 159, 226);
+}
+
+.contents.right.up{
+    height: auto;
+    background-color: aliceblue;
+}
+
+.contents.right.down{
+    height: auto;
+    background-color: darkgray;
+    
+}
+
+.CRDleft{
+    width: 275px;
+    display: inline-block;
+    background-color: green;
+}
+.CRDright{
+    width: 275px;
+    display: inline-block;
+    background-color: red;
+} 
+
+.clear{
+    clear: both;
+} 
+
+
+p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    height: 50px;
+    background-color: rgb(16, 1, 230);
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}

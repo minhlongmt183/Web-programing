@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    width: 510px;
+    height: 120px;
+    border-radius: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: red;
+}
+
+table, td, th {
+    border: 3px solid gray;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+
+.box {
+    width: 327px;
+    height: 87px;
+    margin: 20px;
+    border: 5px solid yellow;
+    background-color: rgb(233, 77, 77);
+    color:aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    color: rgb(146, 20, 3);
+    text-shadow: 5px 5px rgb(72, 55, 226);
+    font-size:xxx-large;
+}
+
+h2{
+    color: rgb(146, 20, 3);
+}
+
+dropcap{
+    position: relative;
+    /* left: -3px; */
+    font-size: 70px;
+    /* line-height: 60px; */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+bold_under{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+italic_under{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+text_color{
+    text-decoration: none;
+    color: rgb(53, 179, 201);
+    text-shadow: 1px 0px 2px rgb(17, 17, 17);
+
+}
+
+li{color: black;}
+.first li:nth-child(odd),
+li:nth-child(odd) li:nth-child(odd)  a,
+.second li:nth-child(even),
+li:nth-child(even) li:nth-child(even)  a{
+    color:red;
+    
+}
+
+a {
+    font-weight:bold;
+}

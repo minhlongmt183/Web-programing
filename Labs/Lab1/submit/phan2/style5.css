@@ -1,0 +1,118 @@
+body{
+background-image: url("./images03/bg-body.png");
+margin: 0px;
+background-repeat: no-repeat;
+background-position: top center;
+
+}
+
+.container{
+    width: 700px;
+    margin: auto
+}
+
+
+.header{
+    vertical-align: middle;
+    margin: auto;
+    height: 140px;
+    background-image: url("./images03/bg-header.jpg");    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(139, 135, 128);
+}
+.header p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline-start: 30px;
+}
+
+
+.menu{
+    height: 35px;
+    background-image: url("./images03/bg-menu.png");
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0px;
+    padding-inline: 0px;
+    margin-block: 0px;
+}
+.menu ul li{
+    margin: 10px;
+    color: white;
+    display: inline-block;
+}
+
+.contents{
+    display: inline-block;
+    height: 500px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.contents.left{
+    width: 500px;
+    background-color: white;
+}
+.contents.left a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.contents.right{
+    width: 200px;
+}
+
+.contents.right.livefeed{
+    background-color: rgba(238, 241, 239, 0.911);
+    height: auto;
+    width: 180px;
+}
+
+
+.btn{
+    width: 152px;
+    height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(./images03/bg-feed.gif);
+    vertical-align: middle;
+    overflow: hidden;
+
+}
+
+.contents.right.sidebarbottom{
+    background-image: url("./images03/bg-sidebar-bottom.gif");
+}
+
+
+.contents.right ul{
+    margin-block: 0px;
+    padding: 5px;
+    list-style: none;
+}
+.contents.right ul li{
+    border-bottom: 1px solid rgb(192, 188, 188);
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    height: 100px;
+    background-image: url("./images03/bg-footer.jpg");
+}
+
+.footer p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-block-start: 4em;
+    margin-inline-start: 2em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
