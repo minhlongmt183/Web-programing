@@ -1,0 +1,125 @@
+
+.borderline{
+    border: 2px solid black;
+}
+
+.title{
+    width: 100%;
+}
+
+.row ul{
+    margin-bottom: 0px;
+}
+
+.row ul li{
+    list-style: none;
+}
+.row p{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+.col{
+    border: 2px solid black;
+}
+.col-6{
+    border: 2px solid black;
+}
+
+
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.description{
+    margin-block-start: 2em;
+    margin-inline-start: 1em;
+}
+
+
+
+
+
+.adv{
+    float: right;
+    width: 160px;
+    height: 600px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    display: table;
+}
+
+.adv p{
+    display: table-cell;
+}
+
+.nothing{
+    height: 5em;
+}
+
+
+
+.center{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right-pos{
+    float: right;
+}
+.image img{
+    width: 100%;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+.footer p{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0em;
+}
+
+.footer p a{
+    text-decoration: underline;
+}
+
+.navbar-nav a{
+    text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,27 @@
+Cookie
+Ưu điểm:
++ Giúp việc truy cập Website của người dùng nhanh hơn, tiện lợi hơn, không quá mất nhiều thời gian đăng nhập lại nhiều lần.
++ Đối với các doanh nghiệp, việc sử dụng Cookie sẽ giúp họ theo dõi được hành vi người dùng, từ đó biết được họ thường truy 
+cập ít hay nhiều, thời gian là bao lâu hay các sở thích khác để có thể tối ưu hóa Website, dịch vụ của mình.
++ Ngoài ra, việc lưu trữ Cookie đối với các doanh nghiệp sẽ giúp khách hàng của họ thuận tiện hơn trong việc truy cập hay 
+đơn giản là việc nhập liệu ở Website đó trở nên tiện lợi khi các thông tin đã được lưu trữ.
+
+Nhược điểm:
++ Vì Cookie là một file dùng để lưu trữ các thông tin, hoạt động sử dụng của người dùng mang tính cá nhân vì vậy sẽ dễ dàng 
+bị các Hacker dòm ngó, tìm cách đột nhập hệ thống Website, máy tính cá nhân để lấy cắp thông tin và sử dụng cho các mục đích 
+xấu mà bạn không thể lường trước được.
+
+Ví Dụ:
++ Khi users truy cập vào một website có sử dụng Cookie, web server sẽ tự động gửi Cookie đến máy tính của họ. Hệ thống máy tính 
+sẽ có một loạt các Cookie đã tự động tổ chức, sắp xếp. Lần tiếp theo users truy cập vào website đó - website được Cookie lưu thì 
+những Cookie này sẽ tự động gửi các thông tin của users về cho chủ của nó - người đã tạo ra Cookie.
+
+Session:
+Ưu điểm:
++ Dễ sử dụng và không làm thay đổi yêu cầu ứng dụng.
+Nhược điểm:
++ Sau khi đóng trình duyệt, máy chủ bị hỏng sẽ mất thông tin session. 
+Ví Dụ:
++ Khi user đăng nhập vào web bằng tài khoản đã đăng ký trước đó, máy chủ sẽ xác thực thông tin mà user cung cấp và khi xác thực 
+đó là các thông tin đúng thì nó sẽ sinh ra một tập tin - đây chính là Session của trình duyệt của user, tập tin này có chứa những 
+dữ liệu cần được lưu trữ của chính user

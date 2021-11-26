@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script lang="javascript" src="script2.js"></script>
+
+    </head>
+    <body>
+        <form name="operation">
+
+        <table>
+            <tr>
+                <td>Number1:</td>
+                <td>
+                    <input type="text" size="10" value="" name="num1">
+                </td>
+            </tr>
+            <tr>
+                <td>Number2:</td>
+                <td>
+                    <input type="text" size="10" value="" name="num2">
+                </td>
+            </tr>
+            <tr>
+                <td>Operator</td>
+                <td>
+                    <input type="radio" name="choice" value="Add" id="choice-add"> 
+                    <label for="choice-add">ADD(+)</label>
+
+                    <input type="radio" name="choice" value="Sub" id="choice-sub"> 
+                    <label for="choice-sub">SUB(-)</label>
+
+                    <input type="radio" name="choice" value="Mul" id="choice-mul"> 
+                    <label for="choice-mul">MUL(*)</label>
+
+                    <input type="radio" name="choice" value="Div" id="choice-div"> 
+                    <label for="choice-div">DIV(/)</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Result:</td>
+                <td>
+                    <input type="text" name="result" value="0" id="result">
+                </td>
+            </tr>
+        </table>
+        <input type="button" value="Caculate" onclick="caculate(document.operation.num1.value, document.operation.num2.value)"><br>
+
+        <table>
+
+            <tr>
+                <td>Number:</td>
+                <td>
+                    <input type="text" size="10" value="" name="num">
+                </td>
+            </tr>
+            <tr>
+                <td>Result:</td>
+                <td>
+                    <input type="text" name="result" value="0" id="power-result">
+                </td>
+            </tr>
+        </table>
+        <input type="button" value="Power Calc" onclick="power(document.operation.num.value)"><br>
+
+        </form>
+        
+    </body>
+</html>

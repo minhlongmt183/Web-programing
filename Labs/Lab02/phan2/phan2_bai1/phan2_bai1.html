@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script language="javascript" src="script.js"></script>
+    </head>
+    <body >
+        <button onclick="tableCreate()">Create Table</button>
+        <button onclick="rowAdd()">Add 1 row</button>
+        <button onclick="columnAdd()">Add 1 column</button>
+        <button onclick="tableDelete()">Delete Table</button>
+
+        <form name="remove">
+            <input type="text" size="20" value="" name="numRows"> 
+            <input type="button" value = "Delete Rows" onclick="rowDelete(document.remove.numRows.value)"> <br>
+
+            <input type="text" size="20" value="" name="numCols"> 
+            <input type="button" value = "Delete Columns" onclick="colDelete(document.remove.numCols.value)"> <br>
+
+
+        </form>
+</html>
